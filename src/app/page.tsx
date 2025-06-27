@@ -1,9 +1,8 @@
-import { Button } from "~/components/ui/button";
+// import { Button } from "~/components/ui/button";
 
-
+import LinkAurinkoButton from "~/components/link-account-button";
 
 export default async function Home() {
-  return (
-    <Button> Hello World</Button>
-  )
+  
+  return <LinkAurinkoButton /> 
 }
